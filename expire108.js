@@ -28,17 +28,6 @@ function setup()
   
    {
         
-     ctx = getAudioContext();
-    ctxOn = createButton('C̾L̾I̾C̾K̾ ̾o̾u̾ ̾T̾A̾P̾ ̾p̾a̾r̾a̾ ̾c̾o̾m̾e̾ç̾a̾r̾/̾e̾m̾p̾e̾z̾a̾r̾');
-    ctxOn.position(windowWidth/4, windowHeight/2);
-    ctxOn.size(windowWidth/8, windowHeight/14);
-    ctxOn.mousePressed(() => {
-    ctx.resume().then(() => {
-    console.log('Audio Context is now ON');
-        ctxOn.hide();
-    });
-    
-    });
      
   createCanvas(w=windowWidth, h=windowHeight);
   background(255, 166, 158);
